@@ -1,0 +1,30 @@
+# ============================================================
+# ASAAP — Anti Sexual Abuse Alerting Program
+# Python Dependencies
+# ============================================================
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Note: TensorFlow may take a few minutes to install.
+# ============================================================
+
+# ML Framework
+tensorflow>=2.13.0
+
+# Audio Processing
+librosa>=0.10.0
+sounddevice>=0.4.6
+scipy>=1.11.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Modern GUI
+customtkinter>=5.2.0
+
+# ML Utilities
+scikit-learn>=1.3.0
+
+# Visualization (for training metrics)
+matplotlib>=3.7.0

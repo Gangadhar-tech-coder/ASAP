@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data & Models
+dataset/urban/fold*/
+*.csv
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# Model files (optional - uncomment if you want to ignore these)
+# *.keras
+# *.npz
+# *.h5
+# *.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Documentation
+ASAAP_Project_Documentation.docx
+*.pdf
+
+# Temporary files
+.tmp/
+temp/
+*.bak
