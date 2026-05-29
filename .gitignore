@@ -70,3 +70,22 @@ ASAAP_Project_Documentation.docx
 .tmp/
 temp/
 *.bak
+
+# JDK (local install)
+jdk/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Java / Maven
+backend/**/target/
+backend/**/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+!backend/**/mvnw
+!backend/**/mvnw.cmd
+
+# Environment
+.env
+.env.local
